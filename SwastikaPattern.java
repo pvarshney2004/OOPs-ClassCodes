@@ -38,6 +38,7 @@ public class SwastikaPattern {
         int s1=1;
         int r1=1;
         while(r1<=n-2){
+
             int i=1;
             while(i<=sp1){
                 System.out.print("  ");
