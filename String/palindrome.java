@@ -18,4 +18,3 @@ public class palindrome {
         return true;
     }
 }
-

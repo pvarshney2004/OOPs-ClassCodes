@@ -1,3 +1,4 @@
+package String;
 import java.util.*;
 public class RemoveSpeChar {
     public static void main(String[] args) {
@@ -6,8 +7,6 @@ public class RemoveSpeChar {
         String str = sc.nextLine();
         String newstr = str.replaceAll("[^a-zA-Z0-9]","");
         System.out.println(newstr);
-
-        System.out.println("Hello World!");
 
     }
 }
