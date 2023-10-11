@@ -2,10 +2,12 @@ import java.util.*;
 public class SwastikaPattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of n greater than 2: ");
         int n = sc.nextInt();  //n=5
         int star=1;
         int space=n-2;
         int row=1;
+
         while(row<=n){
             int i=1;
             while(i<=star){
