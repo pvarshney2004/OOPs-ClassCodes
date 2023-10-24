@@ -4,7 +4,7 @@ import java.util.*;
 public class RemoveDupChar {
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
-        String str = "aabacbn";
+        String str = "afsadeds";
         String newstr = removeDupChar(str);
         System.out.println(newstr);
     }
